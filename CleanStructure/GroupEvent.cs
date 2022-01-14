@@ -8,7 +8,7 @@
         Update,
         Delete,
         Find,
-        Select,
+        Select
     }
     
     public abstract record GroupEvent

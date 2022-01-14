@@ -1,7 +1,5 @@
 ﻿using CleanStructure;
 
-// clean structure
-
 var group = new Group() { Name = "Ali Mohammed" };
 
 GroupViewModel.OnEvent(new InsertGroup { Group = group });
