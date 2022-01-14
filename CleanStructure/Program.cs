@@ -1,22 +1,9 @@
-﻿using System;
-using CleanStructure;
+﻿using CleanStructure;
 
 // clean structure
 
-GroupViewModel.OnEvent(new GroupEvent.InsertGroup()
-{
-    Group = new() { Name = "Ali Mohammed Added" }
-});
+var group = new Group() { Name = "Ali Mohammed" };
 
-GroupViewModel.OnEvent(new GroupEvent.DeleteGroup()
-{
-    Group = new() { Name = "Ali Mohammed Deleted" }
-});
-
-GroupViewModel.OnEvent(new GroupEvent.UpdateGroup()
-{
-    Group = new() { Name = "Ali Mohammed Updated" }
-});
-
-// pause screen
-Console.ReadKey();
+GroupViewModel.OnEvent(new InsertGroup { Group = group });
+GroupViewModel.OnEvent(new DeleteGroup { Group = group });
+GroupViewModel.OnEvent(new UpdateGroup { Group = group });
