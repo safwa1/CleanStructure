@@ -40,6 +40,7 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="EventType.cs" />
         <Compile Include="Group.cs" />
         <Compile Include="GroupEvent.cs" />
         <Compile Include="GroupViewModel.cs" />

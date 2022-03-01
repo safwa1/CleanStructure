@@ -1,4 +1,5 @@
-﻿using CleanStructure;
+﻿
+using CleanStructure;
 
 var group = new Group() { Name = "Ali Mohammed" };
 
