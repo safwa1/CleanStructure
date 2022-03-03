@@ -1,6 +1,6 @@
 ﻿using CleanStructure;
 
-var group = new Group { Name = "Ali Mohammed" };
+var group = new Group { Name = "John Doe" };
 
 GroupViewModel.OnEvent(new InsertGroup(group));
 GroupViewModel.OnEvent(new DeleteGroup(group));
