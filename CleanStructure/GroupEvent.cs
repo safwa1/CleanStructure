@@ -1,12 +1,12 @@
 ﻿namespace CleanStructure
 {
+    public abstract record GroupEvent;
 
-    public abstract record GroupEvent
-    {
-        public Group? Group { get; set; }
-    }
+    public sealed record InsertGroup(Group Group) : GroupEvent;
+
+    public sealed record UpdateGroup(Group Group) : GroupEvent;
+
+    public sealed record DeleteGroup(Group Group) : GroupEvent;
     
-    public sealed record InsertGroup : GroupEvent;
-    public sealed record UpdateGroup : GroupEvent;
-    public sealed record DeleteGroup : GroupEvent;
+    public sealed record FindGroup(string Name) : GroupEvent;
 }

@@ -40,6 +40,9 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="ConsoleUtil\Messages.cs" />
+        <Compile Include="ConsoleUtil\MessageType.cs" />
+        <Compile Include="Dummy\IsExternalInit.cs" />
         <Compile Include="EventType.cs" />
         <Compile Include="Group.cs" />
         <Compile Include="GroupEvent.cs" />
