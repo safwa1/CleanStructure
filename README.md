@@ -2,4 +2,4 @@
 
 > Simple Example
 
-`using sealed class and usecases for clean code`
+using sealed class and usecases for clean code
