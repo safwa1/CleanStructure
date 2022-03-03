@@ -7,6 +7,6 @@
     public sealed record UpdateGroup(Group? Group) : GroupEvent;
 
     public sealed record DeleteGroup(Group? Group) : GroupEvent;
-    
+
     public sealed record FindGroup(string Name) : GroupEvent;
 }
